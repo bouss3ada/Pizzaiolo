@@ -1,0 +1,60 @@
+{
+  "name": "Pizzaiolo",
+  "private": false,
+  "homepage": "https://harbash69.github.io/Vanilla.github.io",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.5",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "cors": "^2.8.5",
+    "create-vite": "^4.4.1",
+    "jquery": "^3.7.0",
+    "react": "^18.2.0",
+    "react-admin": "^4.16.2",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.20.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.3",
+    "react-type-animation": "^2.1.2",
+    "react-typewriter-effect": "^1.1.0",
+    "react-useanimations": "^2.10.0",
+    "readme-md-generator": "^1.0.0",
+    "styled-components": "^5.3.9",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.0.0",
+    "gh-pages-deploy": "^0.1.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0"
+  },
+  "description": "Curriculum Vitae",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "Vanilla"
+  },
+  "author": "",
+  "license": "MIT"
+}
